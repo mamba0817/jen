@@ -9,8 +9,8 @@ pipeline {
     stage('docker build and push') {
       steps {
         sh '''
-        sudo docker build -t leeansin/myweb:1.3 .
-        sudo docker push leeansin/myweb:1.3
+        sudo docker build -t leeansin/myweb:1.1 .
+        sudo docker push leeansin/myweb:1.1
         '''
       }
     }
